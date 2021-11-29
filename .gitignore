@@ -22,6 +22,7 @@ yarn-error.log*
 
 
 //.net
+Properties
 appsettings.json
 appsettings.Development.json
 *.swp
