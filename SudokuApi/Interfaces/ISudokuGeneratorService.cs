@@ -10,5 +10,6 @@ namespace SudokuApi.Services
     public interface ISudokuGeneratorService
     {
         Task<Board> GenerateRandomBoard(int difficulty, CancellationToken cancellationToken);
+        List<int> MakeRandomEmpty(List<int> numbers, int count);
     }
 }
